@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb-base", "prettier", "plugin:node/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": ["warn", { "varsIgnorePattern": "[req]" }],
+    "consistent-return": "off",
+    "no-console": "off",
+    "object-shorthand": "off",
+    "camelcase": "off",
+    "func-names": "off",
+    "no-process-exit": "off"
+  }
+}
